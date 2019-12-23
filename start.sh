@@ -1,11 +1,9 @@
-git pull
-
 echo "token = 'INSERT YOUR TOKEN'" > src/config.py
 
 python3 -m venv venv
 
 source venv/bin/activate
 
-pip3 -r requirments.txt
+pip3 install -r requirments.txt
 
 python3 src/bot.py &
