@@ -6,6 +6,6 @@ python3 -m venv venv
 
 source venv/bin/activate
 
-pip3 -i requirments.txt
+pip3 -r requirments.txt
 
 python3 src/bot.py &
