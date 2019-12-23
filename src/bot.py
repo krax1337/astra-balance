@@ -12,7 +12,7 @@ def send_welcome(message):
 @bot.message_handler(content_types=["text"])
 def send_balance(message):
     
-    if len(str(message.text)) < 10 or not str(message.text).isdigit():
+    if len(str(message.text)) != 10 or not str(message.text).isdigit():
         bot.send_message(message.chat.id, "Введи номер своей карты, чтобы узнать текущий баланс")
     else:
         try:
