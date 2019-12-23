@@ -1,6 +1,6 @@
 git pull
 
-echo > token = 'INSERT YOUR TOKEN'
+echo "token = 'INSERT YOUR TOKEN'" > src/config.py
 
 python3 -m venv venv
 
