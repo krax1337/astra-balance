@@ -1,4 +1,5 @@
 echo "token = 'INSERT YOUR TOKEN'" > src/config.py
+echo "cluster = 'mongodb://localhost:27017/'" >> src/config.py
 
 python3 -m venv venv
 

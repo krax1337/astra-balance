@@ -1,3 +1,4 @@
 bs4==0.0.1
 lxml==4.4.2
 pyTelegramBotAPI==3.6.6
+pymongo==3.10.0
